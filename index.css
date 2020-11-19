@@ -1,75 +1,73 @@
-
 body {
-    background-color: black;
-    color: #ffffff;
-    text-shadow: 2px 2px 2px rgb(70, 70, 70);
-    text-align: center;
-    font-family: 'Aleo';
+  background-color: black;
+  color: #ffffff;
+  text-shadow: 5px 5px 5px rgb(70, 70, 70);
+  text-align: center;
+  font-family: "Aleo";
+  font-size: 70px;
 }
 
 h1 {
-    color: #a099d1;
-    text-align: center;
+  color: #a099d1;
+  text-align: center;
 }
 .clicked {
-    color: #7f8c8d;
+  color: #7f8c8d;
 }
 
 .form,
 .greetings {
-    display: none;
-
+  display: none;
 }
 
 .showing {
-    display: block;
+  display: block;
 }
 
 @keyframes fadeIn {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 .bgImage {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
-    animation: fadeIn 0.5s linear;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  animation: fadeIn 0.5s linear;
 }
 
 input {
-    font-family: 'Aleo';
-    color: #999;
-    border: 1.5px solid #928cc0;
-    border-radius: 4px;
+  font-family: "Aleo";
+  color: #999;
+  border: 5px solid #928cc0;
+  border-radius: 20px;
+  font-size: 70px;
 }
 
 button {
-    background-color: #928cc0;
-    padding: 1px 1px;
-    margin: 5px;
-    border: none;
-    color: rgb(151, 151, 151);
-    text-align: center;
-    text-decoration: none;
-    font-size: 13px;
-    display: inline-block;
-    border-radius: 20px;
-    cursor: pointer;
-    -webkit-transition-duration: 0.4s;
-    transition-duration: 0.4s;
-    box-shadow: 0 6px 20px 0 rgba(0,0,0,0.19);
-    
+  background-color: #928cc000;
+  padding: 5 5;
+  margin: 5px;
+  border: none;
+  color: rgb(151, 151, 151);
+  text-align: center;
+  text-decoration: none;
+  font-size: 60px;
+  display: inline-block;
+  border-radius: 50px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-
-.js-weather{
-    font-size: 5px;
+.js-weather {
+  font-size: 50px;
 }
