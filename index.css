@@ -18,6 +18,7 @@ h1 {
 .form,
 .greetings {
   display: none;
+  margin: 30px;
 }
 
 .showing {
